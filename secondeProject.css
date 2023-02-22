@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Prata&family=Roboto&display=swap");
+.content .Screen1__unit4 p, .content .Screen1__unit3 p {
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+}
+.content .Screen1__unit4 div, .content .Screen1__unit3 div {
+  margin-left: 10px;
+  height: 1px;
+  width: 50px;
+  background-color: #8B8371;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.content {
+  min-height: calc(100vh - 100px);
+}
+.content .Header {
+  flex-wrap: wrap;
+  height: 85px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.content .Header__logo {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-family: "Playfair Display", serif;
+}
+.content .Header__menu {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  justify-content: space-around;
+  font-family: "Roboto", serif;
+}
+.content .Header__menu div {
+  margin-left: 65px;
+}
+.content .Header__icons {
+  display: flex;
+  justify-content: space-around;
+}
+.content .Header__icons div {
+  margin-left: 23px;
+  position: relative;
+}
+.content .Header__icons .Icons__uved {
+  border-radius: 50%;
+  height: 13px;
+  background-color: #E6C8B4;
+  width: 13px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  color: black;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", serif;
+}
+.content .Screen1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.content .Screen1__unit {
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  background-color: #8B8371;
+  left: -80px;
+  top: 50px;
+}
+.content .Screen1__unit2 {
+  position: absolute;
+  width: 50px;
+  height: 1px;
+  background-color: #8B8371;
+  left: -80px;
+  top: 500px;
+}
+.content .Screen1__text {
+  position: relative;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.content .Screen1__text h1 {
+  font-size: 48px;
+  font-family: "Playfair Display", serif;
+  font-style: normal;
+  font-weight: 400;
+}
+.content .Screen1__text h2 {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+  margin-top: 16px;
+}
+.content .Screen1__text p {
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Roboto", serif;
+  width: 258px;
+  margin-top: 39px;
+}
+.content .Screen1__text button {
+  height: 64px;
+  width: 205px;
+  background: #444240;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  font-weight: 500;
+  line-height: 14px;
+  border: none;
+  outline: none;
+  margin-top: 64px;
+}
+.content .Screen1__img {
+  display: flex;
+  justify-content: end;
+  position: relative;
+  height: 768px;
+}
+.content .Screen1__img img {
+  transform: scale(1, 1);
+}
+.content .Screen1__unit2 {
+  justify-self: start;
+  position: absolute;
+  background: linear-gradient(180deg, rgba(234, 227, 212, 0) 0%, #EAE3D4 100%);
+  top: 0;
+  border-radius: 50%;
+  border-radius: 100% 0 0 100%/50% 0 0 50%;
+  float: right;
+  margin-right: 100px;
+  width: 500px;
+  height: 110%;
+  left: -170px;
+}
+.content .Screen1__unit3 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 150px;
+  left: -100px;
+}
+.content .Screen1__unit3 div {
+  margin-left: 10px;
+}
+.content .Screen1__unit4 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  top: 650px;
+  right: -70px;
+}
+.content .Screen1__unit4 div {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.content .Screen2 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.content .Screen2 h1 {
+  justify-self: center;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  text-align: center;
+}
+.content .Screen2 p {
+  text-align: end;
+  align-self: end;
+  border-bottom: 1px solid #C4C0B6;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 98px;
+  padding-bottom: 11.5px;
+  line-height: 19px;
+  width: 104px;
+  text-align: center;
+}
+.content .Screen2__watches {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.content .Screen2__watches div {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 313px;
+}
+.content .Screen2__watches h1 {
+  text-align: start;
+  font-size: 14px;
+  font-weight: 700;
+}
+.content .Screen2__watches h2 {
+  font-size: 12px;
+  font-weight: 400;
+}
+.content .Screen2__watches .About {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.content .Screen2__watches .About__line {
+  width: 30px;
+  height: 1px;
+  padding: 0;
+  background-color: #444240;
+  align-self: center;
+}
+.content .Screen2__watches .About div {
+  align-self: center;
+  justify-self: center;
+}
+.content .Screen2__watches p {
+  font-family: "Playfair Display";
+  text-align: start;
+  align-self: flex-start;
+  border: none;
+}
+.content .Screen2__watches p div {
+  width: 20px;
+  height: 1px;
+  background-color: #444240;
+}
+.content .Banner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  min-height: 519px;
+  margin-top: 138px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.content .Banner__absolute {
+  height: 100%;
+  width: 468px;
+  position: absolute;
+  background-color: #F7F5EF;
+  z-index: 0;
+  left: 0;
+}
+.content .Banner .Photo__slider {
+  display: flex;
+  overflow: hidden;
+  width: 521px;
+  height: 414px;
+}
+.content .Banner .Photo__slider div {
+  display: flex;
+  transition: 0.3s;
+}
+.content .Banner .Photo__sliderButton {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+  margin-right: 80px;
+  align-items: center;
+}
+.content .Banner .Photo__sliderButton p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: "Prata";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+.content .Banner__lines {
+  margin-left: 12.5%;
+  height: 50%;
+  display: flex;
+  justify-self: flex-end;
+  flex-direction: column;
+  z-index: 2;
+  justify-content: space-around;
+}
+.content .Banner__lines button {
+  width: 205px;
+  height: 64px;
+  background-color: #D4B098;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: 500;
+}
+.content .Banner__lines p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  max-width: 400px;
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+.content .Banner__lines h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+}
+.content .Banner__photo {
+  z-index: 2;
+}
+.content .Banner__circle {
+  position: absolute;
+  background: none;
+  border: 1px solid #D4B098;
+  width: 744px;
+  height: 744px;
+  right: -580px;
+  top: 50px;
+  border-radius: 50%;
+}
+.content .Banner__circle2 {
+  position: absolute;
+  background: none;
+  border: 1px solid #D4B098;
+  width: 365px;
+  height: 365px;
+  right: -200px;
+  top: -80px;
+  border-radius: 50%;
+}
+.content .Screen3 {
+  display: flex;
+  width: 100%;
+  margin-top: 81px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.content .Screen3__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.content .Screen3__text p {
+  max-width: 376px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  margin-top: 40px;
+}
+@media screen and (max-width: 740px) {
+  .content .Screen3__grid {
+    display: block;
+  }
+  .content .Screen3__grid img {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 740px) {
+  .content .Screen3__grid {
+    display: grid;
+    grid-template-columns: 242px 377px;
+    grid-template-rows: 228px 222px;
+    grid-gap: 10px;
+  }
+}
+.content .Screen3__grid div:nth-child(3) {
+  grid-column-start: 1;
+  grid-column-end: 1;
+  grid-row: 2;
+}
+.content .Screen3__grid div:nth-child(2) {
+  grid-column-start: 2;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.content .Screen3__grid div:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+}
+.content .Screen3 .Text__icons {
+  display: flex;
+  justify-self: flex-start;
+  align-items: center;
+}
+.content .Screen3 .Text__icons div {
+  margin-right: 18px;
+}
+.content .Screen3 .Text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.content .Screen3 .Text p {
+  max-width: 376px;
+}
+.content .Screen3 .Text h1 {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+}
+
+.Footer {
+  background: #444240;
+  flex-wrap: wrap;
+  min-height: 275px;
+  margin-top: 90px;
+  padding-top: 67px;
+  padding-bottom: 67px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+.Footer__logo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+.Footer__logo .LogoFooter {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.14em;
+  display: flex;
+  color: white;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.Footer__text {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: rgba(255, 255, 255, 0.75);
+}
+.Footer__text p {
+  margin-top: 15px;
+}
+.Footer__bold {
+  display: flex;
+  color: white;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}/*# sourceMappingURL=secondeProject.css.map */
